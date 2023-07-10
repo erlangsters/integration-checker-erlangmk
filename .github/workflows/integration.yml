@@ -11,6 +11,9 @@ jobs:
       matrix:
         include:
           - {name: etv, repo: erlang-term-validator}
+          - {name: eetv, repo: extended-erlang-term-validator}
+          - {name: json_etv, repo: json-validator}
+          - {name: settings_etv, repo: settings-validator}
 
     runs-on: ubuntu-latest
     container:

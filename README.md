@@ -6,6 +6,9 @@ integrates well with the Erlang.mk build system.
 All projects it's checking.
 
 - Erlang Term Validator
+- Extended Term Validator
+- JSON Validator
+- Settings Validator
 
 Instead of a thorough check for all platforms, all architectures and all
 Erlang versions, it only checks using the latest stable 'erlang' image on Linux
