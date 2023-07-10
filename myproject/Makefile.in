@@ -1,0 +1,8 @@
+PROJECT = myproject
+PROJECT_DESCRIPTION = New project
+PROJECT_VERSION = 0.1.0
+
+BUILD_DEPS = @project_name
+dep_@project_name = git https://github.com/erlangsters/@project_repo master
+
+include erlang.mk
