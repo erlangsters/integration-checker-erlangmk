@@ -15,6 +15,7 @@ jobs:
       matrix:
         include:
           - {name: etv, repo: term-validator}
+          - {name: spawn_mode, repo: spawn-mode}
 
     runs-on: ubuntu-latest
     container:

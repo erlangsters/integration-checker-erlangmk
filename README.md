@@ -6,6 +6,7 @@ integrates well with the Erlang.mk build system.
 All projects it's checking.
 
 - Term Validator
+- Spawn Mode
 
 Instead of a thorough check for all platforms, all architectures and all
 Erlang versions, it only checks using the latest stable 'erlang' image on Linux
