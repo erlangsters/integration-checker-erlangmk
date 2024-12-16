@@ -7,6 +7,9 @@ All projects it's checking.
 
 - Term Validator
 - Spawn Mode
+- OTPless Worker
+- OTPless Orchestrator
+- OTPless Reactor
 
 Instead of a thorough check for all platforms, all architectures and all
 Erlang versions, it only checks using the latest stable 'erlang' image on Linux

@@ -16,6 +16,9 @@ jobs:
         include:
           - {name: etv, repo: term-validator}
           - {name: spawn_mode, repo: spawn-mode}
+          - {name: otpless_worker, repo: otpless-worker}
+          - {name: otpless_orchestrator, repo: otpless-orchestrator}
+          - {name: otpless_reactor, repo: otpless-reactor}
 
     runs-on: ubuntu-latest
     container:
